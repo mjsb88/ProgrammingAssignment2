@@ -46,15 +46,21 @@ cacheSolve <- function(mat, ...) {
 }
 
 # > matriz <- matrix(c(2, 5, 1, 3), 2, 2)
+              
 # > r <- makeCacheMatrix()
+              
 # > r$set(matriz)
+              
 # > s <- cacheSolve(r)
+              
 # > s
 # [,1] [,2]
 # [1,]    3   -1
 # [2,]   -5    2
+              
 # > s <- cacheSolve(r)
 # getting cached data
+              
 # > s
 # [,1] [,2]
 # [1,]    3   -1
